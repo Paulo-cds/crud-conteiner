@@ -1,0 +1,62 @@
+.conteinerCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.26);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 60%;
+    height: 30rem;
+    border: 0.5px solid black;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+
+      input,
+      select {
+        margin: 10px auto;
+        width: 9rem;
+        height: 2rem;
+        text-align: center;
+        font-size: 0.9em;
+
+        option {
+          text-align: center;
+        }
+      }
+
+      .buttons {
+        margin-top: 20px;
+
+        button {
+          width: 7rem;
+          height: 1.5rem;
+          margin: 0 5px;
+
+          &:hover {
+            cursor: pointer;
+            background-color: rgb(18, 214, 240);
+          }
+        }
+      }
+    }
+  }
+}

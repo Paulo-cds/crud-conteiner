@@ -1,0 +1,47 @@
+.conteiner {
+  width: 100%;
+  min-height: 85vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .form {
+    border: 1px solid black;
+    width: 30%;
+    height: 20rem;
+    padding: 10px;
+    text-align: center;
+
+    h3 {
+      margin: 10px auto;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      input,
+      select {
+        width: 90%;
+        height: 2rem;
+        margin: 5px auto;
+        text-align: center;
+      }
+
+      button {
+        width: 70%;
+        height: 2rem;
+        margin-top: 10px;
+
+        &:hover {
+          cursor: pointer;
+          background-color: rgb(18, 214, 240);
+        }
+      }
+    }
+  }
+}

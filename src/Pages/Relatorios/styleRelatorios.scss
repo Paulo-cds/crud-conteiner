@@ -1,0 +1,64 @@
+.conteinerRelatorio {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 20px;
+    transition: 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(18, 214, 240);
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+  }
+
+  .table {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      align-items: center;
+
+      .listData {
+        display: flex;
+        justify-self: space-around;
+
+        li {
+          padding: 10px;
+          border: 1px solid black;
+          width: 7rem;
+          text-align: center;
+          word-wrap: break-word;
+        }
+      }
+    }
+  }
+
+  .sumario {
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+
+    &:hover {
+      box-shadow: 0 0 10px black;
+      margin-top: 17px;
+    }
+
+    p {
+      margin-top: 15px;
+      font-size: 1.1em;
+    }
+  }
+}

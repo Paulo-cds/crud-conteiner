@@ -1,0 +1,15 @@
+.conteinerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+  padding: 20px;
+  background-color: rgba(18, 214, 240, 0.137);
+  text-align: center;
+
+  h2 {
+    font-size: 3em;
+  }
+}
